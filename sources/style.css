@@ -1,0 +1,32 @@
+h1 {
+    text-align: center;
+    background-color: rgba(90, 39, 39, 0);
+    color: rgb(133, 94, 94);
+  }
+  
+  h2 {
+    color: rgba(65, 51, 58, 0.144);
+  }
+  
+  h3 {
+    color: rgb(68, 67, 64);
+  }
+  
+  img {
+    box-shadow: 10px 10px 5px black;
+  }
+  
+  section {
+    background-color: #000;
+  }
+  
+  p {
+    font-size: 15px;
+    color: gray;
+  }
+  
+  ul {
+    border-style: solid;
+    color: gray;
+  }
+  
