@@ -1,4 +1,6 @@
+/* Set the cascading style sheet (css) for all pages */
 h1 {
+    
     text-align: center;
     background-color: rgba(90, 39, 39, 0);
     color: rgb(133, 94, 94);
@@ -27,6 +29,18 @@ h1 {
   
   ul {
     border-style: solid;
-    color: gray;
+    color: rgb(248, 247, 247);
   }
   
+  table {
+    border-style: solid;
+    background-color: rgba(63, 46, 46, 0.475);
+    color: rgb(248, 247, 247);
+    box-shadow: 10px 10px 5px rgb(26, 41, 21);
+
+  }
+  
+  th { 
+      font-size: large;
+      color: rgb(11, 14, 7);
+  }
