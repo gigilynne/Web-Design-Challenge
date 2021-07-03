@@ -47,10 +47,18 @@ body {
   
   #visualization {
     position: relative;
+    border: black;
+    box-shadow: #333;
+    padding: auto;
   }
   
   #project_sum {
     width: 70%;
+  }
+
+  #figure {
+    position: relative;
+    box-shadow: #333;
   }
   
   #visualization_links {
@@ -64,3 +72,74 @@ body {
     box-shadow: dimgrey;
   }
   
+  /* Giving our navbar some padding and a background color */
+.navbar {
+    padding: 2px;
+    background: #545961;
+  }
+  
+  /* Making our navbar li's inline-block elements this makes it so we can have multiple on the same line. Floats could have been used too */
+  .navbar li {
+    display: inline-block;
+    padding: 2px;
+    margin-right: 10px;
+    margin-left: 10px;
+    cursor: pointer;
+    background: #fff;
+    border-radius: 3px;
+  }
+  
+  /* Getting rid of the default link styles here */
+  .navbar li a {
+    color: #000;
+    text-decoration: none;
+  }
+
+/* Style The Dropdown Button */
+.dropbtn {
+  background-color: #2b362b;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  right: 0;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  right: 0;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #aec0dfbf}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+  background-color: #3e8e41;
+}
