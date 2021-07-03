@@ -3,7 +3,7 @@
 body {
     padding: 0;
     margin: 0;
-    font-family: Georgia, "Times New Roman", Times, serif;
+    font-family: Tahoma, "Times New Roman", Times, sans-serif;
     font-size: 18px;
     line-height: 150%;
     color: #333;
@@ -19,7 +19,7 @@ body {
     margin: 0;
     margin-bottom: 20px;
     font-size: 28px;
-    color: #eee;
+    color: rgb(22, 14, 14);
     text-align: center;
   }
   
@@ -28,7 +28,7 @@ body {
   }
   
   a {
-    color: #d21034;
+    color: #103ed7;
   }
   
   /* Selecting elements by class */
@@ -38,31 +38,31 @@ body {
   }
   
   /* Selecting elements by ID */
-  #main-bio,
-  #contact-info,
-  #bio-image {
+  #visualization,
+  #project_sum,
+  #visualization_links {
     float: left;
   }
   
-  #figure {
+  #visualization {
     position: relative;
   }
   
-  #bio-name {
+  #project_name {
     position: absolute;
     top: 150px;
     left: 30px;
   }
   
-  #main-bio {
+  #project_sum {
     width: 70%;
   }
   
-  #contact-info {
+  #visualization_links {
     width: 30%;
   }
   
-  #bio-image {
+  #visualization {
     width: 200px;
     height: 200px;
     margin-right: 20px;
