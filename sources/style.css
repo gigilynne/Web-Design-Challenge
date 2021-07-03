@@ -48,12 +48,6 @@ body {
     position: relative;
   }
   
-  #project_name {
-    position: relative;
-    top: 150px;
-    left: 30px;
-  }
-  
   #project_sum {
     width: 70%;
   }
@@ -66,5 +60,6 @@ body {
     width: 200px;
     height: 200px;
     margin-right: 20px;
+    box-shadow: dimgrey;
   }
   
