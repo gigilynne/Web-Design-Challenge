@@ -1,155 +1,75 @@
 
 /* Styling for HTML elements */
-body {
-    padding: 0;
-    margin: 0;
-    font-family: Tahoma, "Times New Roman", Times, sans-serif;
-    font-size: 18px;
-    line-height: 150%;
-    color: #333;
-    background: #efeee7;
+
+img {
+    max-width: 100%;
+    border: 4mm;
+    box-shadow: transparent;
+    padding-bottom: 5px;
+    border-radius: 10pt;
+    float:left;
   }
   
-  header {
-    background: #333;
+  h1, h2, h3, p{
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(110, 119, 133);
   }
   
-  h1 {
-    padding: 20px 0;
-    margin: 0;
-    margin-bottom: 20px;
+  h1{
     font-size: 32px;
-    color: rgb(22, 14, 14);
-    text-align: start;
-    text-shadow: 2px 2px rgba(58, 56, 56, 0.646);
+    font-weight: bold;
+    text-align:left;
+    font-weight: bolder;
+    text-shadow: rgba(67, 62, 62, 0.934);
+
   }
   
-  h2 {
+  h2{
     font-size: 24px;
+    font-weight: bold;
+    text-align:left;
+    color: black;
   }
   
-  a {
-    color: #103ed7;
+  h3{
+    font-size: 18px;
+    text-align: center;
   }
   
-  /* Selecting elements by class */
-  .container {
-    width: 1024px;
-    margin: 0 auto;
+  p{
+    color: rgb(22, 22, 22);
+    text-align:left;
+    float:left;
   }
   
-  /* Selecting elements by ID */
-  #visualization,
-  #project_sum,
-  #visualization_links {
-    float: left;
+   .navbar{ */
+      position: absolute;
+      right: 10px;
   }
   
-}
+  /* .navbar a{
+    background-color:rgb(66, 58, 58);
+  }  */
+
+  .nav-item dropdown{
+      position: absolute;
+      right: 50px;
+      /* inset-inline-end:right; */
+  } 
   
-/* Selecting elements by ID */
-/* #visualization,
-#visualization_links {
-  float: right;
-} */
-  #visualization {
-    position: relative;
-    border: black;
-    box-shadow: #333;
-    padding: auto;
+  body {
+    width: 100%;
+    min-height:100%;
+    background-color: lightgray;
   }
   
-  #project_sum {
-    width: 70%;
+  .home{
+    background-color: white;
+    z-index:2;
   }
 
-  #figure {
-    position: relative;
-    box-shadow: #333;
-  }
+  .li { vertical-align:text-bottom;
+    color: rgb(110, 119, 133)
+    }
   
-  #visualization_links {
-    width: 30%;
-  }
   
-  #visualization {
-    width: 200px;
-    height: 200px;
-    margin-right: 20px;
-    box-shadow: dimgrey;
-  }
-  
-  /* Giving our navbar some padding and a background color */
-.navbar {
-    padding: 2px;
-    background: #545961;
-  }
-  
-  /* Making our navbar li's inline-block elements this makes it so we can have multiple on the same line. Floats could have been used too */
-  .navbar li {
-    display: inline-block;
-    padding: 2px;
-    margin-right: 10px;
-    margin-left: 10px;
-    cursor: pointer;
-    background: #fff;
-    border-radius: 5px;
-  }
-  
-  /* Getting rid of the default link styles here */
-  .navbar li a {
-    color: #000;
-    text-decoration: none;
-  }
-
-/* Style The Dropdown Button */
-.dropbtn {
-  background-color: #f1f5f1;
-  color: rgb(20, 20, 20);
-  padding: 5px;
-  font-size: 16px;
-  border: none;
-  cursor: pointer;
-  position: relative;
-  border-radius: 5px;
-  align-self: stretch;
-}
-
-/* The container <div> - needed to position the dropdown content */
-.dropdown {
-  position: relative;
-  display: inline-block;
-  right: 0%;
-}
-
-/* Dropdown Content (Hidden by Default) */
-.dropdown-content {
-  display: none;
-  right: 0;
-  position: absolute;
-  background-color: #f9f9f9;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
-}
-
-/* Links inside the dropdown */
-.dropdown-content a {
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-}
-
-/* Change color of dropdown links on hover */
-.dropdown-content a:hover {background-color: #aec0dfbf}
-
-/* Show the dropdown menu on hover */
-.dropdown:hover .dropdown-content {
-  display: block;
-}
-
-/* Change the background color of the dropdown button when the dropdown content is shown */
-.dropdown:hover .dropbtn {
-  background-color: #3e8e41;
-}
