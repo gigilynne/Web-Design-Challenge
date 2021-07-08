@@ -71,5 +71,9 @@ img {
   .li { vertical-align:text-bottom;
     color: rgb(110, 119, 133)
     }
+ 
+    td, th { 
+        text-align:center;
+      }
   
   
